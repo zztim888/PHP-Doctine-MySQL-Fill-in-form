@@ -25,6 +25,8 @@
 		}
 		
 		// Taking all 4 values from the form data(input)
+		// when making columns in doctine, it automatically inserts id as a primary key
+		// I have commented that and changed to 'names' a primary key
 		
 		$names = $_REQUEST['names'];
 		$profession = $_REQUEST['profession'];
